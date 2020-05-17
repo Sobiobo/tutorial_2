@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background: blue;
+  height: 80px;
+  color: white;
+  font-size: 3rem;
+}
+
+.banner {
+  background: red;
+  /* height: calc(100vh - 80px); */
+  min-height: calc(100vh - 80px);
+}
+
+.example {
+  background: green;
+  color: white;
+  width: 15em;
+  height: 15em;
+  overflow: hidden;
+  overflow: scroll;
+}

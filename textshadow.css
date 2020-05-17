@@ -1,0 +1,30 @@
+/* * {
+  border: 0;
+} */
+h1 {
+  color: blue;
+  text-transform: uppercase;
+  text-shadow: 5px 2px 3px red;
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.box {
+  width: 50vw;
+  height: 50vh;
+  background: rgb(13, 116, 21);
+  margin: 20px;
+  /* box-shadow: 5px 3px 1px salmon; */
+  transition: all 2s linear;
+}
+
+.box:hover {
+  --webkit-box-shadow: 10px 10px 5px 0px rgba(14, 57, 230, 1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(14, 57, 230, 1);
+  box-shadow: 10px 10px 5px 0px rgba(13, 116, 21, 0.8);
+  background: #f0a611;
+}
+
+.try {
+  color: red;
+}

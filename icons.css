@@ -1,0 +1,19 @@
+.edit {
+  color: rgba(122, 105, 58, 0.986);
+  font-size: 48px;
+  text-align: left;
+  text-indent: 30px;
+}
+
+.apple {
+  color: rgba(59, 187, 48, 0.918);
+  font-size: 10em;
+  text-align: center;
+  /* text-indent: 30px; */
+}
+.fb {
+  color: rgb(0, 89, 255);
+  font-size: 10em;
+  text-align: left;
+  text-indent: 30px;
+}

@@ -1,0 +1,32 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+div {
+ min-height: 100vh;
+ color: chartreuse;
+
+}
+
+.background {
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(./TS-Image/background.jpeg) left/cover no-repeat fixed;
+}
+
+.one {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 40px;
+ text-align: center;
+ text-transform: capitalize;
+
+}
+
+.two {
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 60px;
+ text-align: center;
+ text-transform: uppercase;
+
+}
